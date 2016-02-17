@@ -11,7 +11,6 @@
 		75395AE41C74505B0075F90B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395AE31C74505B0075F90B /* ViewController.swift */; };
 		75395AE71C74505B0075F90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75395AE51C74505B0075F90B /* Main.storyboard */; };
 		75395AE91C74505B0075F90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75395AE81C74505B0075F90B /* Assets.xcassets */; };
-		75395AEC1C74505B0075F90B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75395AEA1C74505B0075F90B /* LaunchScreen.storyboard */; };
 		75395AF71C74505B0075F90B /* CRWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395AF61C74505B0075F90B /* CRWeiBoTests.swift */; };
 		75395B021C74505B0075F90B /* CRWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B011C74505B0075F90B /* CRWeiBoUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		75395AE31C74505B0075F90B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75395AE61C74505B0075F90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75395AE81C74505B0075F90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		75395AEB1C74505B0075F90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75395AED1C74505B0075F90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75395AF21C74505B0075F90B /* CRWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75395AF61C74505B0075F90B /* CRWeiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRWeiBoTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				75395AE31C74505B0075F90B /* ViewController.swift */,
 				75395AE51C74505B0075F90B /* Main.storyboard */,
 				75395AE81C74505B0075F90B /* Assets.xcassets */,
-				75395AEA1C74505B0075F90B /* LaunchScreen.storyboard */,
 				75395AED1C74505B0075F90B /* Info.plist */,
 			);
 			path = CRWeiBo;
@@ -229,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75395AEC1C74505B0075F90B /* LaunchScreen.storyboard in Resources */,
 				75395AE91C74505B0075F90B /* Assets.xcassets in Resources */,
 				75395AE71C74505B0075F90B /* Main.storyboard in Resources */,
 			);
@@ -299,14 +295,6 @@
 				75395AE61C74505B0075F90B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		75395AEA1C74505B0075F90B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75395AEB1C74505B0075F90B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = CRWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corotata.CRWeiBo;
@@ -410,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = CRWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corotata.CRWeiBo;
@@ -484,6 +474,7 @@
 				75395B081C74505B0075F90B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75395B091C74505B0075F90B /* Build configuration list for PBXNativeTarget "CRWeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +483,7 @@
 				75395B0B1C74505B0075F90B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75395B0C1C74505B0075F90B /* Build configuration list for PBXNativeTarget "CRWeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +492,7 @@
 				75395B0E1C74505B0075F90B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
