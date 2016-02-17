@@ -13,6 +13,16 @@
 		75395AE91C74505B0075F90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75395AE81C74505B0075F90B /* Assets.xcassets */; };
 		75395AF71C74505B0075F90B /* CRWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395AF61C74505B0075F90B /* CRWeiBoTests.swift */; };
 		75395B021C74505B0075F90B /* CRWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B011C74505B0075F90B /* CRWeiBoUITests.swift */; };
+		75395B1D1C7456780075F90B /* CRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B1C1C7456780075F90B /* CRTabBarController.swift */; };
+		75395B201C7458030075F90B /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 75395B1F1C7458030075F90B /* MainVCSettings.json */; };
+		75395B231C745F190075F90B /* CRHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B221C745F190075F90B /* CRHomeViewController.swift */; };
+		75395B251C745F310075F90B /* CRDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B241C745F310075F90B /* CRDiscoverViewController.swift */; };
+		75395B271C745F4D0075F90B /* CRNullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B261C745F4D0075F90B /* CRNullViewController.swift */; };
+		75395B291C745F7D0075F90B /* CRMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B281C745F7D0075F90B /* CRMessageViewController.swift */; };
+		75395B2B1C745F9C0075F90B /* CRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B2A1C745F9C0075F90B /* CRProfileViewController.swift */; };
+		75395B2D1C7461F70075F90B /* UIButton+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B2C1C7461F70075F90B /* UIButton+CoreExtension.swift */; };
+		75395B311C74725B0075F90B /* UIView+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B301C74725B0075F90B /* UIView+CoreExtension.swift */; };
+		75395B331C7478900075F90B /* CRTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B321C7478900075F90B /* CRTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		75395AFD1C74505B0075F90B /* CRWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75395B011C74505B0075F90B /* CRWeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRWeiBoUITests.swift; sourceTree = "<group>"; };
 		75395B031C74505B0075F90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75395B1C1C7456780075F90B /* CRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTabBarController.swift; sourceTree = "<group>"; };
+		75395B1F1C7458030075F90B /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		75395B221C745F190075F90B /* CRHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRHomeViewController.swift; sourceTree = "<group>"; };
+		75395B241C745F310075F90B /* CRDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRDiscoverViewController.swift; sourceTree = "<group>"; };
+		75395B261C745F4D0075F90B /* CRNullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNullViewController.swift; sourceTree = "<group>"; };
+		75395B281C745F7D0075F90B /* CRMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRMessageViewController.swift; sourceTree = "<group>"; };
+		75395B2A1C745F9C0075F90B /* CRProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRProfileViewController.swift; sourceTree = "<group>"; };
+		75395B2C1C7461F70075F90B /* UIButton+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CoreExtension.swift"; sourceTree = "<group>"; };
+		75395B301C74725B0075F90B /* UIView+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CoreExtension.swift"; sourceTree = "<group>"; };
+		75395B321C7478900075F90B /* CRTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,8 @@
 		75395AE01C74505B0075F90B /* CRWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				75395B111C74553B0075F90B /* Classes */,
+				75395B151C74553B0075F90B /* Vendors */,
 				75395AE11C74505B0075F90B /* AppDelegate.swift */,
 				75395AE31C74505B0075F90B /* ViewController.swift */,
 				75395AE51C74505B0075F90B /* Main.storyboard */,
@@ -120,6 +142,110 @@
 				75395B031C74505B0075F90B /* Info.plist */,
 			);
 			path = CRWeiBoUITests;
+			sourceTree = "<group>";
+		};
+		75395B111C74553B0075F90B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75395B161C7455D20075F90B /* Modules */,
+				75395B211C745AAC0075F90B /* Catagories */,
+				75395B121C74553B0075F90B /* Helpers */,
+				75395B141C74553B0075F90B /* Vendors Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75395B121C74553B0075F90B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		75395B141C74553B0075F90B /* Vendors Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vendors Extensions";
+			sourceTree = "<group>";
+		};
+		75395B151C74553B0075F90B /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		75395B161C7455D20075F90B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				75395B171C7455D20075F90B /* Discover */,
+				75395B181C7455D20075F90B /* Home */,
+				75395B191C7455D20075F90B /* Main */,
+				75395B1A1C7455D20075F90B /* Message */,
+				75395B1B1C7455D20075F90B /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		75395B171C7455D20075F90B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				75395B241C745F310075F90B /* CRDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		75395B181C7455D20075F90B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				75395B221C745F190075F90B /* CRHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		75395B191C7455D20075F90B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75395B1E1C7458030075F90B /* Resource */,
+				75395B1C1C7456780075F90B /* CRTabBarController.swift */,
+				75395B321C7478900075F90B /* CRTabBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75395B1A1C7455D20075F90B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				75395B281C745F7D0075F90B /* CRMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		75395B1B1C7455D20075F90B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				75395B2A1C745F9C0075F90B /* CRProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		75395B1E1C7458030075F90B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				75395B1F1C7458030075F90B /* MainVCSettings.json */,
+				75395B261C745F4D0075F90B /* CRNullViewController.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		75395B211C745AAC0075F90B /* Catagories */ = {
+			isa = PBXGroup;
+			children = (
+				75395B2C1C7461F70075F90B /* UIButton+CoreExtension.swift */,
+				75395B301C74725B0075F90B /* UIView+CoreExtension.swift */,
+			);
+			path = Catagories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +310,7 @@
 		75395AD61C74505B0075F90B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CR;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Corotata;
@@ -228,6 +355,7 @@
 			files = (
 				75395AE91C74505B0075F90B /* Assets.xcassets in Resources */,
 				75395AE71C74505B0075F90B /* Main.storyboard in Resources */,
+				75395B201C7458030075F90B /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +382,15 @@
 			files = (
 				75395AE41C74505B0075F90B /* ViewController.swift in Sources */,
 				75395AE21C74505B0075F90B /* AppDelegate.swift in Sources */,
+				75395B331C7478900075F90B /* CRTabBar.swift in Sources */,
+				75395B251C745F310075F90B /* CRDiscoverViewController.swift in Sources */,
+				75395B231C745F190075F90B /* CRHomeViewController.swift in Sources */,
+				75395B271C745F4D0075F90B /* CRNullViewController.swift in Sources */,
+				75395B311C74725B0075F90B /* UIView+CoreExtension.swift in Sources */,
+				75395B2B1C745F9C0075F90B /* CRProfileViewController.swift in Sources */,
+				75395B2D1C7461F70075F90B /* UIButton+CoreExtension.swift in Sources */,
+				75395B1D1C7456780075F90B /* CRTabBarController.swift in Sources */,
+				75395B291C745F7D0075F90B /* CRMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
