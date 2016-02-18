@@ -23,6 +23,8 @@
 		75395B2D1C7461F70075F90B /* UIButton+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B2C1C7461F70075F90B /* UIButton+CoreExtension.swift */; };
 		75395B311C74725B0075F90B /* UIView+CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B301C74725B0075F90B /* UIView+CoreExtension.swift */; };
 		75395B331C7478900075F90B /* CRTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B321C7478900075F90B /* CRTabBar.swift */; };
+		75395B351C75591F0075F90B /* CRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B341C75591F0075F90B /* CRNavigationController.swift */; };
+		75395B371C755DF60075F90B /* CRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75395B361C755DF60075F90B /* CRButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		75395B2C1C7461F70075F90B /* UIButton+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CoreExtension.swift"; sourceTree = "<group>"; };
 		75395B301C74725B0075F90B /* UIView+CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CoreExtension.swift"; sourceTree = "<group>"; };
 		75395B321C7478900075F90B /* CRTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTabBar.swift; sourceTree = "<group>"; };
+		75395B341C75591F0075F90B /* CRNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNavigationController.swift; sourceTree = "<group>"; };
+		75395B361C755DF60075F90B /* CRButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				75395B221C745F190075F90B /* CRHomeViewController.swift */,
+				75395B361C755DF60075F90B /* CRButton.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				75395B1E1C7458030075F90B /* Resource */,
 				75395B1C1C7456780075F90B /* CRTabBarController.swift */,
 				75395B321C7478900075F90B /* CRTabBar.swift */,
+				75395B341C75591F0075F90B /* CRNavigationController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -387,7 +393,9 @@
 				75395B231C745F190075F90B /* CRHomeViewController.swift in Sources */,
 				75395B271C745F4D0075F90B /* CRNullViewController.swift in Sources */,
 				75395B311C74725B0075F90B /* UIView+CoreExtension.swift in Sources */,
+				75395B371C755DF60075F90B /* CRButton.swift in Sources */,
 				75395B2B1C745F9C0075F90B /* CRProfileViewController.swift in Sources */,
+				75395B351C75591F0075F90B /* CRNavigationController.swift in Sources */,
 				75395B2D1C7461F70075F90B /* UIButton+CoreExtension.swift in Sources */,
 				75395B1D1C7456780075F90B /* CRTabBarController.swift in Sources */,
 				75395B291C745F7D0075F90B /* CRMessageViewController.swift in Sources */,

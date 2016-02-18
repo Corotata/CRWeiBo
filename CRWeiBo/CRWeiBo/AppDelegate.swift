@@ -24,12 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         UITabBar.appearance().tintColor = UIColor.orangeColor()
-        
-        
-        
-        
-        
-        
         return true
     }
 

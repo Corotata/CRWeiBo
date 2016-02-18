@@ -29,6 +29,7 @@ class CRTabBar: UITabBar {
         
         button.coroBackgroundImage("tabbar_compose_button")
         button.coroHighlightedBackgroundImage("tabbar_compose_button_highlighted")
+        
         button.frame.size = button.currentBackgroundImage!.size
         return button
     }()

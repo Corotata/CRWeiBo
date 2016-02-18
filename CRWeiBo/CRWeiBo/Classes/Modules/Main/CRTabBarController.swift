@@ -22,9 +22,6 @@ class CRTabBarController: UITabBarController {
         super.viewWillAppear(animated)
     }
     
-    
-    
-    
     private func addChildViewControllers(){
         let jsonPath = NSBundle.mainBundle().pathForResource("MainVCSettings", ofType: "json");
         
@@ -63,7 +60,8 @@ class CRTabBarController: UITabBarController {
         childController.title = title
         childController.tabBarItem.image = UIImage(named: imageName)
         childController.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")
-        addChildViewController(childController)
+        let navigaionController = CRNavigationController.init(rootViewController: childController)
+        addChildViewController(navigaionController)
     }
     
 }
