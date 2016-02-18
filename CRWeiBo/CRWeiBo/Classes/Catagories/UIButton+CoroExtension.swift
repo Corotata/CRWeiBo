@@ -10,33 +10,33 @@ import UIKit
 
 extension UIButton
 {
-    func coroImage (imageName:String) {
+    func coro_image (imageName:String) {
         setImage(UIImage(named: imageName), forState: UIControlState.Normal)
     }
-    func coroSelectedImage (imageName:String) {
+    func coro_selectedImage (imageName:String) {
         setImage(UIImage(named: imageName), forState: UIControlState.Selected)
     }
-    func coroHighlightedImage (imageName:String) {
+    func coro_highlightedImage (imageName:String) {
         setImage(UIImage(named: imageName), forState: UIControlState.Highlighted)
     }
     
-    func coroTitle (title:String) {
+    func coro_title (title:String) {
         setTitle(title, forState: UIControlState.Normal)
     }
-    func coroHighlightedTitle (title:String) {
+    func coro_highlightedTitle (title:String) {
         setTitle(title, forState: UIControlState.Highlighted)
     }
-    func coroSelectedTitle (title:String) {
+    func coro_selectedTitle (title:String) {
         setTitle(title, forState: UIControlState.Selected)
     }
     
-    func coroBackgroundImage(imageName :String) {
+    func coro_backgroundImage(imageName :String) {
         setBackgroundImage(UIImage(named:imageName), forState: UIControlState.Normal)
     }
-    func coroHighlightedBackgroundImage(imageName :String) {
+    func coro_highlightedBackgroundImage(imageName :String) {
         setBackgroundImage(UIImage(named:imageName), forState: UIControlState.Highlighted)
     }
-    func coroSelectedBackgroundImage(imageName :String) {
+    func coro_selectedBackgroundImage(imageName :String) {
         setBackgroundImage(UIImage(named:imageName), forState: UIControlState.Selected)
     }
 

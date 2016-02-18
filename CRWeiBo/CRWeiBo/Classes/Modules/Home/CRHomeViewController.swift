@@ -13,11 +13,31 @@ class CRHomeViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        steupNavigationBar()
     }
     
     
 
+    
+    func steupNavigationBar(){
+        navigationItem.leftBarButtonItem = UIBarButtonItem.coro_createBarButtonItem("navigationbar_friendattention", highlightedImageName: "navigationbar_friendattention_highlighted", target: self, action: "leftBarItemClick")
+        
+         navigationItem.rightBarButtonItem = UIBarButtonItem.coro_createBarButtonItem("navigationbar_pop", highlightedImageName: "navigationbar_pop_highlighted", target: self, action: "rightBarItemClick")
+        
+    }
+    
+    // MARK: - Click Method
+    
+    func leftBarItemClick(){
+        print(__FUNCTION__)
+        
+    
+    }
+    
+    func rightBarItemClick(){
+        print(__FUNCTION__)
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

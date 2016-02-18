@@ -24,11 +24,11 @@ class CRTabBar: UITabBar {
 
     private lazy var composeButton:UIButton = {
         let button = UIButton()
-        button.coroImage("tabbar_compose_icon_add")
-        button.coroHighlightedImage("tabbar_compose_icon_add_highlighted")
+        button.coro_image("tabbar_compose_icon_add")
+        button.coro_highlightedImage("tabbar_compose_icon_add_highlighted")
         
-        button.coroBackgroundImage("tabbar_compose_button")
-        button.coroHighlightedBackgroundImage("tabbar_compose_button_highlighted")
+        button.coro_backgroundImage("tabbar_compose_button")
+        button.coro_highlightedBackgroundImage("tabbar_compose_button_highlighted")
         
         button.frame.size = button.currentBackgroundImage!.size
         return button
